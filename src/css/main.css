@@ -1,7 +1,7 @@
 /*+++++++++++++++++++++ GLOBAL STYLES +++++++++++++++++++++*/
 html {
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.4; 
 
   color: #222;
 }
@@ -21,7 +21,7 @@ hr {
 
   height: 1px;
   margin: 1em 0;
-  padding: 0;
+  padding: 0; 
 
   border: 0;
   border-top: 1px solid #ccc;
@@ -38,7 +38,7 @@ video {
 
 fieldset {
   margin: 0;
-  padding: 0;
+  padding: 0; 
 
   border: 0;
 }
@@ -50,7 +50,7 @@ textarea {
 /*==========Browser Upgrade Prompt==========*/
 .browserupgrade {
   margin: .2em 0;
-  padding: .2em 0;
+  padding: .2em 0; 
 
   color: #000;
   background: #ccc;
@@ -67,7 +67,7 @@ textarea {
   overflow: hidden;
   clip: rect(0 0 0 0);
 
-  width: 1px;
+  width: 1px; 
   height: 1px;
   margin: -1px;
   padding: 0;
@@ -82,7 +82,7 @@ textarea {
   overflow: visible;
   clip: auto;
 
-  width: auto;
+  width: auto; 
   height: auto;
   margin: 0;
 }
@@ -93,7 +93,7 @@ textarea {
 
 .clearfix:before,
 .clearfix:after {
-  display: table;
+  display: table; 
 
   content: " ";
 }
