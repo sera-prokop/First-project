@@ -161,35 +161,31 @@ body {
 
 /*==================   HEADER   ===================*/
 .center {
-  line-height: 90px;
+  line-height: 90px; 
 
   min-width: 960px;
   max-width: 1200px;
   margin: 0 auto;
-
-  outline: 1px solid;
-  background: url(../img/hd-bg.jpg) repeat-x;
 }
 
 .header {
-  display: block; 
+  min-width: 960px; 
 
   background: url(../img/hd-bg.jpg) repeat-x;
 }
 
-.main-header {
-  background-color: #fff;
-}
 .main-header__left {
   float: left;
 
   width: 250px;
 }
+
 .main-header__right {
   float: right;
 
   max-width: 250px;
 }
+
 .main-header__strip {
   height: 7px;
 

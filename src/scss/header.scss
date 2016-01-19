@@ -3,17 +3,13 @@
   max-width:1200px;
   min-width: 960px;
   margin: 0 auto;
-  outline:1px solid;
   line-height: 90px;
-  background: url(../img/hd-bg.jpg) repeat-x;
 }
 .header{
   background: url(../img/hd-bg.jpg) repeat-x;
-  display: block;
-
+  min-width: 960px;
 }
 .main-header{
-  background-color: #fff;
   &__left{
     float: left;
     width: 250px;

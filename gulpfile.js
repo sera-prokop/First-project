@@ -9,7 +9,10 @@ var gulp = require('gulp'),
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        server: "./src/"
+        server: "./src/",
+        tunnel: true,
+        host: 'localhost',
+        port: 9000,
     });
 
     gulp.watch("./src/scss/**/*.scss", ['sass']);
