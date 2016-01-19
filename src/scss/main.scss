@@ -1,2 +1,18 @@
-@import "global";
-@import "header.scss";
+/*========== Main ==========*/
+.main{
+  margin-left: -20px;
+}
+.center2{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.nav{
+  float: left;
+  width: 250px;
+}
+.main-inf{
+  float: right;
+  width: 650px;
+  outline:1px solid;
+}

@@ -8,6 +8,9 @@
 .header{
   background: url(../img/hd-bg.jpg) repeat-x;
   min-width: 960px;
+  margin-bottom: 34px;
+  padding: 0 10px;
+  border-bottom: 7px solid #fff;
 }
 .main-header{
   &__left{
@@ -17,10 +20,6 @@
   &__right{
     float: right;
     max-width: 250px;
-  }
-  &__strip{
-    height: 7px;
-    background-color: #fff;
   }
 }
 .menu-social{

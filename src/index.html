@@ -10,7 +10,7 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <link rel="stylesheet" href="bower/normalize-css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
@@ -32,16 +32,15 @@
         </ul>
       </div>
     </div>
-    <div class="main-header__strip"></div>
   </header>
   <main class="main">
-    <div class="center2">
-      <div class="nav">
+    <div class="center2 clearfix">
+      <nav class="nav">
         <div class="nav__menu">
           <ul class="main-menu">
-            <li class="main-menu__for-me"><a href="#">Обо мне</a></li>
-            <li class="main-menu__my-work"><a href="#">Мои работы</a></li>
-            <li class="main-menu__feedback"><a href="#">Обратная связь</a></li>
+            <li class="main-menu__for-me"><a class="main-menu__item main-menu__item--active" href="#">Обо мне</a></li>
+            <li class="main-menu__my-work"><a class="main-menu__item" href="#">Мои Работы</a></li>
+            <li class="main-menu__feedback"><a class="main-menu__item" href="#">Обратная связь</a></li>
           </ul>
         </div>
         <div class="nav__contacts">
@@ -52,7 +51,7 @@
             <li class="contacts__skype"><a href="skype:sera.prokop">sera.prokop</a></li>
           </ul>
         </div>
-      </div>
+      </nav>
       <div class="main-inf">
         <div class="info clearfix">
           <h1 class="info__title main__title">Основная информация</h1>

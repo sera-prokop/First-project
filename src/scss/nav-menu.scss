@@ -1,0 +1,118 @@
+/*========== Main Navigation ==========*/
+.main-menu{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid #b8b8b8;
+  box-shadow:0 2px 3px -1px #b8b8b8;
+  margin-bottom: 35px;
+  &__item{
+    text-decoration: none;
+    display: block;
+    padding: 17px 0 17px 29px;
+    font-size: 20px;
+    line-height: 1.1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #727070;
+    letter-spacing: -0.5px;
+    background-image:
+    linear-gradient(
+      to top,
+      rgb(233,230,229) 0%,
+      rgb(251,249,249) 94%,
+      rgb(255,255,255) 100%);
+    box-shadow:
+      0px 2px 1px 0px
+      rgba(9, 9, 9, 0.07),
+      inset 0px -2px 3px 0px
+      rgba(41, 41, 41, 0.05);
+
+    &:hover{
+      background-image:
+      linear-gradient(
+        to bottom,
+        rgb(194,192,192) 0%,
+        rgb(227,225,225)87%,
+        rgb(230,228,228) 90%,
+        rgb(232,231,231) 100%);
+    }
+    &--active{
+      background-image:
+      linear-gradient(
+        to top,
+        rgb(62,183,153) 0%,
+        rgb(126,232,206) 100%);
+      box-shadow:
+        0px 2px 1px 0px
+        rgba(9, 9, 9, 0.16),
+        inset 0px 1px 0px 0px
+        rgba(255, 255, 255, 0.3);
+      color: #1e7465;
+        &:hover{
+          background-image:
+          linear-gradient(
+            to top,
+            rgb(62,183,153) 0%,
+            rgb(126,232,206) 100%);
+          box-shadow:
+            0px 2px 1px 0px
+            rgba(9, 9, 9, 0.16),
+            inset 0px 1px 0px 0px
+            rgba(255, 255, 255, 0.3);
+          color: #1e7465;
+        }
+     }
+  }
+}
+
+.contacts{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  border-radius: 10px 10px 5px 5px;
+  overflow: hidden;
+  background: #999;
+  // box-shadow:0 2px 3px -1px #b8b8b8;
+  box-sizing: border-box;
+  border: 1px solid #d4d3d1;
+  &__title{
+    font-size: 20px;
+    line-height: 1.1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: semibold;
+    color: #d0982c;
+    text-shadow: 1px 0 0 #d9ae62, -1px 0 0 #d9ae62;
+    padding: 8px 0 8px 28px;
+    background-image:
+    linear-gradient(
+      to top,
+      rgb(220,177,93) 0%,
+      rgb(244,204,126) 90%);
+    box-shadow:
+      0px 2px 1px 0px
+      rgba(9, 9, 9, 0.17),
+      inset 0px 1px 0px 0px
+      rgba(255, 255, 255, 0.25);
+    border: 1px solid #cba14e;
+  }
+  &__mail{
+      padding: 10px 0;
+      position: relative;
+      margin-left: 97px;
+      &:after{
+        content:'';
+        display: block;
+        width: 40px;
+        height: 38px;
+        background: url(../img/sprite.png) -179px -212px no-repeat;
+        position: absolute;
+        left: -76px;
+        top: 0;
+
+      }
+  }
+}

@@ -10,8 +10,6 @@ gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
         server: "./src/",
-        tunnel: true,
-        host: 'localhost',
         port: 9000,
     });
 
@@ -20,7 +18,7 @@ gulp.task('serve', ['sass'], function() {
 });
 
 gulp.task('sass', function() {
-    return gulp.src("./src/scss/main.scss")
+    return gulp.src("./src/scss/style.scss")
         .pipe(sass().on('error', sass.logError))
         .pipe(csscomb())
         .pipe(autoprefixer({
