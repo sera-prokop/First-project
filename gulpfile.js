@@ -18,7 +18,7 @@ gulp.task('serve', ['sass'], function() {
 });
 
 gulp.task('sass', function() {
-    return gulp.src("./src/scss/style.scss")
+    gulp.src("./src/scss/style.scss")
         .pipe(sass().on('error', sass.logError))
         .pipe(csscomb())
         .pipe(autoprefixer({

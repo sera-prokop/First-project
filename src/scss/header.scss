@@ -42,18 +42,30 @@
   &__fb{
     background-position: -215px -10px;
     margin-left: 15px;
+    &:hover{
+      background-position: -83px -70px;
+    }
   }
   &__vk{
     background-position: -239px -261px;
     margin-left: 13px;
+    &:hover{
+      background-position: -297px -261px;
+    }
   }
   &__tw{
     background-position: -267px -201px;
     margin-left: 14px;
+    &:hover{
+      background-position: -83px -261px;
+    }
   }
   &__gh{
     background-position: -215px -70px;
     margin-left: 12px;
     margin-right: 9px;
+    &:hover{
+      background-position: -10px -130px;
+    }
   }
 }

@@ -46,36 +46,44 @@
         <div class="nav__contacts">
           <ul class="contacts">
             <li class="contacts__title">Контакты</li>
-            <li class="contacts__mail"><a href="mailto:sera.prokop@gmail.com">sera.prokop@gmail.com</a></li>
-            <li class="contacts__tel"><a href="skype:+7123456789?call">+7123456789</a></li>
-            <li class="contacts__skype"><a href="skype:sera.prokop">sera.prokop</a></li>
+            <li class="contacts__mail contacts__general"><a class="contacts__descr" href="mailto:sera11@mail.ru">sera11@mail.ru</a></li>
+            <li class="contacts__tel contacts__general"><a class="contacts__descr" href="skype:+7123456789?call">+7123456789</a></li>
+            <li class="contacts__skype contacts__general"><a class="contacts__descr" href="skype:sera.prokop">sera.prokop</a></li>
           </ul>
         </div>
       </nav>
-      <div class="main-inf">
-        <div class="info clearfix">
+      <section class="main-inf">
+        <div class="info main__section clearfix">
           <h1 class="info__title main__title">Основная информация</h1>
           <div class="info__foto">
-            <img src="img/foto.jpg" height="155" width="155" alt="Foto">
+            <img src="img/foto.jpg" alt="Foto" width="133" height="132">
           </div>
           <div class="info__text">
             <ul class="description">
-              <li class="description__name"><span>Меня зовут: </span>Прокопеня Сергей Владимирович</li>
-              <li class="description__age"><span>Мой возраст: </span>34 года</li>
-              <li class="description__city"><span>Мой город: </span>Брест, Беларусь</li>
-              <li class="description__spec"><span>Моя специализация: </span>FRONTEND разработчик</li>
-              <li class="description__skill"><span>Ключевые навыки: </span>html css javascript git gulp grunt</li>
+              <li class="description__name description__item"><span>Меня зовут: </span>Прокопеня Сергей Владимирович</li>
+              <li class="description__age description__item"><span>Мой возраст: </span>34 года</li>
+              <li class="description__city description__item"><span>Мой город: </span>Брест, Беларусь</li>
+              <li class="description__spec description__item"><span>Моя специализация: </span>FRONTEND разработчик</li>
+              <div class="description__skill"><span>Ключевые навыки: </span >
+                <ul class="description__image">
+                  <li class="description__html description__li">html</li>
+                  <li class="description__css description__li">css</li>
+                  <li class="description__js description__li">javascript</li>
+                  <li class="description__git description__li">git</li>
+                  <li class="description__gulp description__li">gulp</li>
+                </ul>
+              </div>
             </ul>
           </div>
         </div>
-        <div class="exp">
+        <div class="exp main__section">
           <h1 class="exp__title main__title">Опыт работы</h1>
-          <ul class="exp-work">
-            <li class="exp-work__edu1">Работа не относящаяся к FRONTEND разработке <br> c сентября 2003 года по настоящее время</li>
-            <li class="exp-work__edu2">Самостоятельное изучение HTML, CSS и JAVASCRIPT<br>май 2015 - по настоящее время</li>
+          <ul class="exp__descr exp-work">
+            <li class="exp-work__first job"><span class="job__des">Работа не относящаяся к FRONTEND разработке</span><span class="job__date">c сентября 2003 года по настоящее время</span></li>
+            <li class="exp-work__second job"><span class="job__des">Самостоятельное изучение HTML, CSS и JAVASCRIPT</span><span class="job__date">май 2015 - по настоящее время</span></li>
           </ul>
         </div>
-        <div class="edu">
+        <div class="edu main__section">
           <h1 class="edu__title main__title">Образование</h1>
           <ul class="edu-work">
             <li class="edu-work__edu1">Первое высшее заведение - студент<br>сентябрь 1998 - июнь 2003</li>
@@ -83,7 +91,7 @@
             <li class="edu-work__loftschool">Учеба в Loftschool<br>январь 2016 - по настоящее время</li>
           </ul>
         </div>
-      </div>
+      </section>
     </div>
   </main>
   <footer class="footer">

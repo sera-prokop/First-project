@@ -1,0 +1,167 @@
+/*============ Main-inf section ============*/
+/*++++++ Info Section++++++*/
+.main{
+  &__section{
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+    overflow: hidden;
+    background-image:
+    linear-gradient(to bottom,
+      #f7f6f5 0%,
+      #f0eeed 100%);
+  }
+  &__title{
+    background-image:linear-gradient(
+      to bottom,
+      #a9a7a7 0%,
+      #7b7979 100%);
+    border-bottom: 1px solid #636363;
+    color: #eeedec;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 0.91;
+    padding: 16px 0 17px 43px;
+    text-shadow:1px 0 1px #666565,
+                -1px 0 1px #666565,
+                0 1px 1px #666565;
+    margin: 0;
+    letter-spacing: -0.6px;
+  }
+}
+
+.info{
+  margin-bottom: 35px;
+  &__title{
+  margin-bottom: 38px;
+  }
+  &__foto{
+    float: left;
+    width: 226px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    img{
+      border-radius: 50%;
+      border: 10px solid #f5f4f3;
+      box-shadow: 1px 1px 0 0 #d8d6d5,
+                  1px -1px 0 0 #d8d6d5,
+                  -1px 1px 0 0 #d8d6d5,
+                  -1px -1px 0 0 #d8d6d5;
+    }
+  }
+  &__text{
+    float: right;
+    width: 420px;
+  }
+}
+.description{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 1;
+  &__item{
+    margin-bottom: 11px;
+  }
+  &__spec{
+    margin-bottom: 20px;
+  }
+  &__skill{
+    margin-bottom: 14px;
+  }
+  &__image{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 0;
+    position: relative;
+    left: 145px;
+    top: -15px;
+    width: 235px;
+  }
+  &__li{
+    display: inline-block;
+    height: 21px;
+    background: url(../img/sprite.png);
+    margin-bottom: 6px;
+  }
+  &__html{
+    background-position: -199px -171px;
+    width: 48px;
+    margin-right: 10px;
+  }
+  &__css{
+    background-position: -83px -10px;
+    width: 39px;
+    margin-right: 9px;
+  }
+  &__js{
+    background-position: -83px -212px;
+    width: 76px;
+    margin-right: 9px;
+  }
+  &__git{
+    background-position: -68px -130px;
+    width: 38px;
+  }
+  &__gulp{
+    background-position: -199px -130px;
+    width: 47px;
+  }
+  span{
+    font-weight: 600;
+    margin-right: 5px;
+  }
+}
+
+/*+++++++++ Experience Section +++++++++*/
+.exp{
+  &__title{
+    margin-bottom: 18px;
+  }
+  &__descr{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+}
+
+
+.job{
+  position: relative;
+  font-size: 14px;
+  padding: 27px 0;
+  &:before{
+      content: "";
+      background: #fff url(../img/case.png) 50% 50%no-repeat;
+      width: 55px;
+      height: 55px;
+      display: block;
+      box-shadow: -1px -1px 1px #cfcfcf;
+      border-radius: 50%;
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      margin-top: -26px;
+    }
+  border-top: 1px solid #edeceb;
+  border-bottom: 1px solid #dbdbda;
+  margin: 0 40px 0 40px;
+  padding-left: 95px;
+  &__des{
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+
+  }
+  &__date{
+    display: inline-block;
+
+  }
+  &:first-child{
+    border-top: none;
+  }
+  &:last-child{
+    border-bottom: none;
+  }
+}
+
