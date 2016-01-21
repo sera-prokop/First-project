@@ -1,4 +1,4 @@
-# Первый выпускной проект
+### Первый выпускной проект
 Install:
 1. clone https://github.com/sera-prokop/First-project.git
 2. npm i
