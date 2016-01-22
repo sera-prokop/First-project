@@ -1,6 +1,7 @@
 /*============ Main-inf section ============*/
 /*++++++ Info Section++++++*/
 .main-inf{
+  margin-bottom: 35px;
 }
 .main{
   &__section{
@@ -19,6 +20,7 @@
       #a9a7a7 0%,
       #7b7979 100%);
     border-bottom: 1px solid #636363;
+    margin-bottom: 38px;
     color: #eeedec;
     font-size: 24px;
     line-height: 0.91;
@@ -33,9 +35,6 @@
 
 .info{
   margin-bottom: 35px;
-  &__title{
-  margin-bottom: 38px;
-  }
   &__foto{
     float: left;
     width: 226px;
@@ -115,7 +114,13 @@
   }
 }
 
+
+
+
 /*+++++++++ Experience Section +++++++++*/
+
+
+
 .exp{
   margin-bottom: 39px;
   &__title{
@@ -167,9 +172,14 @@
     border-bottom: none;
   }
 }
+
+
+
 /*++++++++++ Education ++++++++++*/
+
+
+
 .edu{
-  margin-bottom: 35px;
   &__title{
     margin-bottom: 17px;
   }

@@ -418,6 +418,10 @@ body {
 
 /*============ Main-inf section ============*/
 /*++++++ Info Section++++++*/
+.main-inf {
+  margin-bottom: 35px;
+}
+
 .main__section {
   overflow: hidden;
 
@@ -433,6 +437,7 @@ body {
   line-height: .91;
 
   margin: 0;
+  margin-bottom: 38px;
   padding: 16px 0 17px 43px;
 
   letter-spacing: -.6px; 
@@ -445,9 +450,6 @@ body {
 
 .info {
   margin-bottom: 35px;
-}
-.info__title {
-  margin-bottom: 38px;
 }
 .info__foto {
   float: left;
@@ -600,9 +602,6 @@ body {
 }
 
 /*++++++++++ Education ++++++++++*/
-.edu {
-  margin-bottom: 35px;
-}
 .edu__title {
   margin-bottom: 17px;
 }
@@ -731,4 +730,81 @@ body {
   padding: 25px 0 25px 60px;
 
   letter-spacing: .1px;
+}
+
+.mywork {
+  margin: 0 10px 50px 40px;
+}
+.mywork__pic {
+  width: 166px;
+  height: 119px; 
+
+  background: linear-gradient(to bottom, rgba(111, 109, 109, .4) 0%, rgba(111, 109, 109, .4) 100%), url(../img/industry.jpg) 0 0 no-repeat;
+}
+.mywork__pic:hover {
+  background: url(../img/industry.jpg) 0 0 no-repeat;
+}
+.mywork__block {
+  display: inline-block;
+  overflow: hidden;
+
+  box-sizing: border-box;
+  width: 166px;
+  margin-top: 30px; 
+  margin-right: 30px;
+
+  vertical-align: top;
+
+  border: 1px solid #b6b6b6;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px rgba(9, 9, 9, .1);
+}
+.mywork__title {
+  font-size: 13px;
+  line-height: 1.69;
+
+  margin: 0;
+  padding: 5px 0;
+
+  text-align: center;
+
+  color: #727070; 
+  background: rgba(111, 109, 109, .1);
+}
+.mywork__descr {
+  font-size: 12px;
+  line-height: 1.33;
+
+  text-align: center;
+
+  color: #727070;
+}
+
+.work-title {
+  margin-bottom: 8px;
+}
+
+.add-project__title {
+  font-size: 14px;
+  line-height: 22px;
+
+  margin-bottom: 25px; 
+
+  text-align: center;
+
+  color: #727070;
+}
+
+.add-project:before {
+  display: block;
+
+  width: 55px;
+  height: 55px;
+  margin: 25px auto 10px auto; 
+
+  content: "";
+
+  border-radius: 50%;
+  background: #f7f7f7 url(../img/polaroid.png) 50% 50% no-repeat;
+  box-shadow: -1px -1px 1px #cfcfcf;
 }
