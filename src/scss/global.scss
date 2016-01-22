@@ -163,9 +163,20 @@ textarea {
 }
 
 /*+++++++++++++++++++++++++++ OTHER STYLES ++++++++++++++++++++++++++*/
-
+html, body{
+  height: 100%;
+}
+.wrapper{
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;background-image:url(../img/bg.jpg);
+  background-size: cover;
+}
+.content{
+  display: table-row;
+  height: 100%;
+}
 body{
-  background:url(../img/bg.jpg) no-repeat;
-  background-size:cover;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }

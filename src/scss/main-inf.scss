@@ -1,7 +1,10 @@
 /*============ Main-inf section ============*/
 /*++++++ Info Section++++++*/
+.main-inf{
+}
 .main{
   &__section{
+    min-width: 650px;
     border: 1px solid #b8b8b8;
     border-radius: 5px;
     overflow: hidden;
@@ -17,7 +20,6 @@
       #7b7979 100%);
     border-bottom: 1px solid #636363;
     color: #eeedec;
-    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     line-height: 0.91;
     padding: 16px 0 17px 43px;
@@ -115,6 +117,7 @@
 
 /*+++++++++ Experience Section +++++++++*/
 .exp{
+  margin-bottom: 39px;
   &__title{
     margin-bottom: 18px;
   }
@@ -155,6 +158,71 @@
   }
   &__date{
     display: inline-block;
+
+  }
+  &:first-child{
+    border-top: none;
+  }
+  &:last-child{
+    border-bottom: none;
+  }
+}
+/*++++++++++ Education ++++++++++*/
+.edu{
+  margin-bottom: 35px;
+  &__title{
+    margin-bottom: 17px;
+  }
+}
+.edu-work{
+  padding: 0;
+  margin: 0 0 15px 0;
+  list-style-type: none;
+  &__edu1{
+    &:before{
+      background: #fff url(../img/school.png) 50% 50%no-repeat;
+    }
+  }
+  &__edu2{
+     &:before{
+      background: #fff url(../img/cap.png) 50% 50%no-repeat;
+    }
+  }
+  &__loftschool{
+     &:before{
+      background: #fff url(../img/file.png) 50% 50%no-repeat;
+    }
+  }
+}
+
+.learn{
+  position: relative;
+  font-size: 14px;
+  padding: 27px 0;
+  &:before{
+      content: "";
+
+      width: 55px;
+      height: 55px;
+      display: block;
+      box-shadow: -1px -1px 1px #cfcfcf;
+      border-radius: 50%;
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      margin-top: -26px;
+    }
+  border-top: 1px solid #edeceb;
+  border-bottom: 1px solid #dbdbda;
+  margin: 0 40px 0 40px;
+  padding-left: 95px;
+  &__des{
+    display: block;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  &__date{
+    display: block;
 
   }
   &:first-child{
