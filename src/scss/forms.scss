@@ -1,0 +1,26 @@
+.forms{
+  margin: 0 auto;
+  width: 400px;
+  &__name{
+    width: 200px;
+    float: left;
+    label{
+      display: block;
+      padding: 10px;
+    }
+    input{
+      padding: 10px;
+    }
+  }
+  &__email{
+    width: 400px;
+    float: right;
+    label{
+      display: block;
+      padding: 10px;
+    }
+    input{
+      padding: 10px;
+    }
+  }
+}

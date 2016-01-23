@@ -41,8 +41,8 @@
             <div class="nav__menu">
               <ul class="main-menu">
                 <li class="main-menu__for-me"><a class="main-menu__item" href="index.html">Обо мне</a></li>
-                <li class="main-menu__my-work"><a class="main-menu__item main-menu__item--active" href="#">Мои Работы</a></li>
-                <li class="main-menu__feedback"><a class="main-menu__item" href="forms.html">Обратная связь</a></li>
+                <li class="main-menu__my-work"><a class="main-menu__item" href="work.html">Мои Работы</a></li>
+                <li class="main-menu__feedback"><a class="main-menu__item main-menu__item--active" href="#">Обратная связь</a></li>
               </ul>
             </div>
             <div class="nav__contacts">
@@ -56,37 +56,30 @@
           </nav>
           <section class="main-inf">
             <div class="main__section">
-              <h1 class="main__title work-title">Мои работы</h1>
-              <div class="mywork">
-                <div class="mywork__block ">
-                  <a href="#" class="mywork__pic"><img src="img/industry.jpg" height="119" width="166" alt="Industry"></a>
-                  <h3 class="mywork__title">a-industry.ru</h3>
-                  <p class="mywork__descr">Корпоративный и в тоже время продающий сайт строительной компании a-industry.</p>
-                </div>
-                <div class="mywork__block ">
-                  <a href="#" class="mywork__pic"><img src="img/domgaz.jpg" height="118" width="165" alt="Domgaz"></a>
-                  <h3 class="mywork__title">домгазбетон.рф</h3>
-                  <p class="mywork__descr">Продающая страница для компании ledenland.</p>
-                </div>
-                <div class="mywork__block ">
-                  <a href="#" class="mywork__pic"><img src="img/crm.png" height="119" width="166" alt=""></a>
-                  <h3 class="mywork__title">crmconsulting.biz</h3>
-                  <p class="mywork__descr">Лендинг компании &laquo;CRM Consulting&raquo; специализирующейся на точной настройке Битрикс 24 под бизнес.</p>
-                </div>
-                <div class="mywork__block ">
-                  <a href="#" class="mywork__pic"><img src="img/landing.jpg" height="118" width="166" alt=""></a>
-                  <h3 class="mywork__title">landingsloft.ru</h3>
-                  <p class="mywork__descr">Сайт по услугам разработки продающих лендингов.</p>
-                </div>
-                <div class="mywork__block ">
-                  <a href="#" class="mywork__pic"><img src="img/snow.jpg" height="119" width="166" alt=""></a>
-                  <h3 class="mywork__title">yaslow.biz</h3>
-                  <p class="mywork__descr">Landing page по продажам франшизы снежного бизнеса</p>
-                </div>
-                <div class="mywork__block add-project">
-                  <a class="add-project__title" href="#">Добавить проект</a>
-                </div>
-              </div>
+              <h1 class="main__title work-title">У вас интересный проект? Напишите мне.</h1>
+              <div class="forms clearfix">
+                <form action="url" metod="GET">
+                  <div class="clearfix">
+                    <div class="forms__name">
+                      <label for="name" >Имя</label>
+                      <input type="text" name="name" id="name"placeholder="Как к вам обращаться">
+                    </div>
+                    <div class="forms__email">
+                      <label for="email">Email</label>
+                      <input type="text" name="email" id="email" placeholder="Куда мне писать">
+                    </div>
+                  </div>
+                  <div class="forms__descr">
+                    <label for="descr">Сообщение</label>
+                    <textarea name="descr" id="descr" cols="50" rows="20" placeholder="Куда мне писать"></textarea>
+                  </div>
+                  <p>Введите код указанный на картинке</p>
+                  <div></div>
+                  <input type="text" name="key">
+                  <input type="submit" value="Отправить">
+                  <input type="reset" value="Очистить">
+                </form>
+
             </div>
           </section>
         </div>

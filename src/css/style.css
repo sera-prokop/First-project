@@ -735,14 +735,11 @@ body {
 .mywork {
   margin: 0 10px 50px 40px;
 }
-.mywork__pic {
-  width: 166px;
-  height: 119px; 
-
-  background: linear-gradient(to bottom, rgba(111, 109, 109, .4) 0%, rgba(111, 109, 109, .4) 100%), url(../img/industry.jpg) 0 0 no-repeat;
+.mywork__pic img {
+  opacity: .3;
 }
-.mywork__pic:hover {
-  background: url(../img/industry.jpg) 0 0 no-repeat;
+.mywork__pic img:hover {
+  opacity: 1;
 }
 .mywork__block {
   display: inline-block;
@@ -788,9 +785,12 @@ body {
   font-size: 14px;
   line-height: 22px;
 
-  margin-bottom: 25px; 
+  display: block; 
+
+  margin-bottom: 25px;
 
   text-align: center;
+  text-decoration: none;
 
   color: #727070;
 }
@@ -807,4 +807,35 @@ body {
   border-radius: 50%;
   background: #f7f7f7 url(../img/polaroid.png) 50% 50% no-repeat;
   box-shadow: -1px -1px 1px #cfcfcf;
+}
+
+.forms {
+  width: 400px; 
+  margin: 0 auto;
+}
+.forms__name {
+  float: left; 
+
+  width: 200px;
+}
+.forms__name label {
+  display: block;
+
+  padding: 10px;
+}
+.forms__name input {
+  padding: 10px;
+}
+.forms__email {
+  float: right; 
+
+  width: 400px;
+}
+.forms__email label {
+  display: block;
+
+  padding: 10px;
+}
+.forms__email input {
+  padding: 10px;
 }
