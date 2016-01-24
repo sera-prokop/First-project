@@ -26,12 +26,12 @@
     color: #eeedec;
     font-size: 24px;
     line-height: 0.91;
+    font-family: open_sanssemibold, sans-serif;
     padding: 16px 0 17px 43px;
     text-shadow:1px 0 1px #666565,
                 -1px 0 1px #666565,
                 0 1px 1px #666565;
     margin: 0;
-    letter-spacing: -0.6px;
   }
 }
 
@@ -64,6 +64,7 @@
   line-height: 1;
   &__item{
     margin-bottom: 11px;
+    font-family: open_sansregular, sans-serif;
   }
   &__spec{
     margin-bottom: 20px;
@@ -75,7 +76,6 @@
     padding: 0;
     margin: 0;
     list-style-type: none;
-    font-size: 0;
     position: relative;
     left: 145px;
     top: -15px;
@@ -83,35 +83,45 @@
   }
   &__li{
     display: inline-block;
-    height: 21px;
-    background: url(../img/sprite.png);
+    vertical-align: middle;
     margin-bottom: 6px;
-  }
-  &__html{
-    background-position: -199px -171px;
-    width: 48px;
-    margin-right: 10px;
-  }
-  &__css{
-    background-position: -83px -10px;
-    width: 39px;
-    margin-right: 9px;
-  }
-  &__js{
-    background-position: -83px -212px;
-    width: 76px;
-    margin-right: 9px;
-  }
-  &__git{
-    background-position: -68px -130px;
-    width: 38px;
-  }
-  &__gulp{
-    background-position: -199px -130px;
-    width: 47px;
+    &:before{
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      background: url(../img/before.png) no-repeat;
+      width: 10px;
+      height: 20px;
+    }
+    &:after{
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      background: url(../img/after.png) no-repeat;
+      width: 9px;
+      height: 20px;
+      position: relative;
+      left: -5px;
+    }
+    span{
+      border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+      border-top: 1px solid rgba(187, 187, 187, 0.5);
+      background: #F0EEED;
+      font-size: 9px;
+      line-height: 1.6866;
+      display: inline-block;
+      vertical-align: middle;
+      font-family: open_sanssemibold, sans-serif;
+      text-transform: uppercase;
+      padding-left: 4px;
+      padding-right: 4px;
+      padding-top: 1px;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
+      color: #1e7465;
+    }
   }
   span{
-    font-weight: 600;
+    font-family: open_sanssemibold, sans-serif;
     margin-right: 5px;
   }
 }
@@ -141,26 +151,37 @@
   font-size: 14px;
   padding: 27px 0;
   &:before{
-      content: "";
-      background: #fff url(../img/case.png) 50% 50%no-repeat;
-      width: 55px;
-      height: 55px;
-      display: block;
-      box-shadow: -1px -1px 1px #cfcfcf;
-      border-radius: 50%;
-      position: absolute;
-      left: 0px;
-      top: 50%;
-      margin-top: -26px;
-    }
+    content: "";
+    background: #fff url(../img/sprite.png) -42px -5px no-repeat;
+    width: 21px;
+    height: 19px;
+    display: block;
+    position: absolute;
+    left: 17px;
+    top: 50%;
+    margin-top: -5px;
+    z-index: 2;
+  }
+  &:after{
+    content: "";
+    width: 55px;
+    height: 55px;
+    background: #f7f7f7;
+    box-shadow: -1px -1px 1px #cfcfcf;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -22.5px;
+  }
   border-top: 1px solid #edeceb;
   border-bottom: 1px solid #dbdbda;
   margin: 0 40px 0 40px;
   padding-left: 95px;
   &__des{
     display: inline-block;
-    font-weight: 600;
     line-height: 1.5;
+    font-family: open_sanssemibold, sans-serif;
 
   }
   &__date{
@@ -230,8 +251,8 @@
   padding-left: 95px;
   &__des{
     display: block;
-    font-weight: 600;
     line-height: 1.5;
+    font-family: open_sanssemibold, sans-serif;
   }
   &__date{
     display: block;
