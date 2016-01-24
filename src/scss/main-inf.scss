@@ -9,12 +9,14 @@
     border: 1px solid #b8b8b8;
     border-radius: 5px;
     overflow: hidden;
+    background-color: #f7f6f5;
     background-image:
     linear-gradient(to bottom,
       #f7f6f5 0%,
       #f0eeed 100%);
   }
   &__title{
+    background-color: #929090;
     background-image:linear-gradient(
       to bottom,
       #a9a7a7 0%,

@@ -8,9 +8,11 @@
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
   <link rel="stylesheet" href="bower/normalize-css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/ie8.css">
+  <![endif]-->
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
@@ -48,9 +50,9 @@
             <div class="nav__contacts">
               <ul class="contacts">
                 <li class="contacts__title">Контакты</li>
-                <li class="contacts__mail contacts__general"><a class="contacts__descr" href="mailto:sera11@mail.ru">sera11@mail.ru</a></li>
-                <li class="contacts__tel contacts__general"><a class="contacts__descr" href="skype:+7123456789?call">+7123456789</a></li>
-                <li class="contacts__skype contacts__general"><a class="contacts__descr" href="skype:sera.prokop">sera.prokop</a></li>
+                <li class="contacts__general"><a class="contacts__descr contacts__mail" href="mailto:sera11@mail.ru">sera11@mail.ru</a></li>
+                <li class="contacts__general"><a class="contacts__descr contacts__tel" href="skype:+7123456789?call">+7123456789</a></li>
+                <li class="contacts__general"><a class="contacts__descr contacts__skype" href="skype:sera.prokop">sera.prokop</a></li>
               </ul>
             </div>
           </nav>
@@ -83,9 +85,7 @@
                   <h3 class="mywork__title">yaslow.biz</h3>
                   <p class="mywork__descr">Landing page по продажам франшизы снежного бизнеса</p>
                 </div>
-                <div class="mywork__block add-project">
-                  <a class="add-project__title" href="#">Добавить проект</a>
-                </div>
+                <a class="mywork__block add-project" href="#">Добавить проект</a>
               </div>
             </div>
           </section>

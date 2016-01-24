@@ -19,6 +19,7 @@
     font-weight: bold;
     color: #727070;
     letter-spacing: -0.5px;
+    background-color: #f1efee;
     background-image:
     linear-gradient(
       to top,
@@ -41,6 +42,7 @@
         rgb(232,231,231) 100%);
     }
     &--active{
+      background-color: #5fd1b5;
       background-image:
       linear-gradient(
         to top,
@@ -70,7 +72,6 @@
   list-style-type: none;
   border-radius: 10px 10px 5px 5px;
   overflow: hidden;
-  // box-shadow:0 2px 3px -1px #b8b8b8;
   box-sizing: border-box;
   border: 1px solid #d4d3d1;
   &__title{
@@ -80,6 +81,7 @@
     color: #d0982c;
     text-shadow: 1px 0 0 #d9ae62, -1px 0 0 #d9ae62;
     padding: 8px 0 8px 28px;
+    background-color: #eac171;
     background-image:
     linear-gradient(
       to top,
@@ -87,38 +89,52 @@
       rgb(244,204,126) 90%);
     border: 1px solid #cba14e;
   }
-  &__general{
-      padding: 7px 0 7px 97px;
-      position: relative;
-      &:before{
-        content:"";
-        width: 40px;
-        height: 40px;
-        display: block;
-        background: url(../img/sprite.png) -179px -212px no-repeat;
-        position: absolute;
-        top: -1px;
-        left:18px;
-
-      }
-  }
-  &__mail{
-    border: 1px solid rgb(214, 213, 211);
-    border-bottom: none;
-    background-image:
-      linear-gradient(
+  &__descr{
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    color: #727070;
+    display: block;
+    padding: 9px 0;
+    padding-left:97px;
+    position: relative;
+    &:before{
+      content:"";
+      width: 40px;
+      height: 40px;
+      display: block;
+      position: absolute;
+      top: -1px;
+      left:18px;
+    }
+    &:hover{
+      background-color: #f6edde;
+      background-image:
+        linear-gradient(
         to bottom,
         #ffffff 0%,
         #fbf9f3 50%,
         #f2e7d0 100%);
-      &:before{
-        content:"";
-        background: url(../img/sprite.png) -179px -212px no-repeat;
-      }
+    }
+  }
+  &__mail{
+    border: 1px solid rgb(214, 213, 211);
+    border-bottom: none;
+    background-color: #fdfcfc;
+    background-image:
+      linear-gradient(
+        to bottom,
+        #ffffff 0%,
+        #f7f6f6 100%);
+    &:before{
+      content:"";
+      background: url(../img/sprite.png) -179px -212px no-repeat;
+    }
   }
   &__tel{
     border:1px solid rgb(214, 213, 211);
     border-bottom: none;
+    background-color: #fdfcfc;
     background-image:
       linear-gradient(
         to bottom,
@@ -133,25 +149,16 @@
   &__skype{
     border:1px solid rgb(214, 213, 211);
     border-bottom: none;
+    background-color: #fdfcfc;
     background-image:
     linear-gradient(
-      to bottom,
-      #fbfbfb 0%,
-      #f4f3f2 100%);
-    // box-shadow:
-    //   0px 1px 0px 0px
-    //   rgba(255, 255, 255, 0.35),
-    //   inset 0px 2px 2px 0px
-    //   rgba(114, 112, 112, 0.1);
+        to bottom,
+        #ffffff 0%,
+        #f7f6f6 100%);
     &:before{
       content:"";
       background: url(../img/sprite.png) -273px -85px no-repeat;
     }
   }
-  &__descr{
-    font-size: 14px;
-    letter-spacing: -0.5px;
-    text-decoration: none;
-    color: #727070;
-  }
 }
+

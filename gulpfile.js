@@ -11,7 +11,7 @@ gulp.task('serve', ['sass'], function() {
     browserSync.init({
         server: "./src/",
         port: 9000,
-        // tunnel: true,
+        tunnel: true,
     });
 
     gulp.watch("./src/scss/**/*.scss", ['sass']);
