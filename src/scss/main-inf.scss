@@ -104,20 +104,19 @@
       left: -5px;
     }
     span{
-      border-bottom: 2px solid rgba(187, 187, 187, 0.6);
-      border-top: 2px solid rgba(187, 187, 187, 0.6);
-      background: #F0EEED;
       font-size: 9px;
       line-height: 1.6866;
       display: inline-block;
-      vertical-align: middle;
+      vertical-align: top;
       font-family: open_sanssemibold, sans-serif;
       text-transform: uppercase;
       padding-left: 4px;
       padding-right: 4px;
-      padding-top: 1px;
+      padding-top: 3px;
+      padding-bottom: 3px;
       text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
       color: #1e7465;
+      background: url(../img/center.png) repeat-x;
     }
   }
   span{
@@ -152,14 +151,14 @@
   padding: 27px 0;
   &:before{
     content: "";
-    background: #fff url(../img/sprite.png) -42px -5px no-repeat;
+    background: url(../img/sprite.png) -42px -5px no-repeat;
     width: 21px;
     height: 19px;
     display: block;
     position: absolute;
     left: 17px;
     top: 50%;
-    margin-top: -5px;
+    margin-top: -4px;
     z-index: 2;
   }
   &:after{
@@ -213,17 +212,41 @@
   list-style-type: none;
   &__edu1{
     &:before{
-      background: #fff url(../img/school.png) 50% 50%no-repeat;
+      content: "";
+      background: url(../img/sprite.png) -5px -134px no-repeat;
+      width: 21px;
+      height: 21px;
+      position: absolute;
+      left: 18px;
+      top: 50%;
+      margin-top: -6px;
+      z-index: 2;
     }
   }
   &__edu2{
      &:before{
-      background: #fff url(../img/cap.png) 50% 50%no-repeat;
+      content: "";
+      background: url(../img/sprite.png) -5px -5px no-repeat;
+      width: 27px;
+      height: 18px;
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      margin-top: -4px;
+      z-index: 2;
     }
   }
   &__loftschool{
      &:before{
-      background: #fff url(../img/file.png) 50% 50%no-repeat;
+      content: "";
+      background: url(../img/sprite.png) -5px -55px no-repeat;
+      width: 15px;
+      height: 20px;
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      margin-top: -4px;
+      z-index: 2;
     }
   }
 }
@@ -232,19 +255,18 @@
   position: relative;
   font-size: 14px;
   padding: 27px 0;
-  &:before{
-      content: "";
-
-      width: 55px;
-      height: 55px;
-      display: block;
-      box-shadow: -1px -1px 1px #cfcfcf;
-      border-radius: 50%;
-      position: absolute;
-      left: 0px;
-      top: 50%;
-      margin-top: -26px;
-    }
+  &:after{
+    content: "";
+    width: 55px;
+    height: 55px;
+    background: #f7f7f7;
+    box-shadow: -1px -1px 1px #cfcfcf;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -22.5px;
+  }
   border-top: 1px solid #edeceb;
   border-bottom: 1px solid #dbdbda;
   margin: 0 40px 0 40px;
