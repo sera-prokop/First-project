@@ -1,3 +1,4 @@
+/*========== Footer ==========*/
 
 .footer{
   min-width: 100%;
@@ -24,31 +25,30 @@
   color: #9c9c9c;
   padding-left: 25px;
   &:before{
+    content: "";
+    background:url(../img/sprite.png) -126px -55px no-repeat;
+    width: 18px;
+    height: 21px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -9px;
+  }
+  &:hover{
+    &:before{
       content: "";
-      background: #fff url(../img/sprite.png) -126px -55px no-repeat;
+      background:url(../img/sprite.png) -184px -55px no-repeat;
       width: 18px;
       height: 21px;
       display: block;
       position: absolute;
       left: 0px;
       top: 50%;
-      margin-top: -11px;
-  }
-  &:hover{
-        &:after{
-          content: "";
-          background: #fff url(../img/sprite.png) -184px -55px no-repeat;
-          width: 18px;
-          height: 21px;
-          display: block;
-          position: absolute;
-          left: 0px;
-          top: 50%;
-          margin-top: -11px;
+      margin-top: -9px;
       }
+    }
   }
-  }
-
 }
 
 .copy{

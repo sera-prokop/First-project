@@ -1,5 +1,6 @@
 /*============ Main-inf section ============*/
-/*++++++ Info Section++++++*/
+
+/*++++++++++ Info Section ++++++++++*/
 .main-inf{
   margin-bottom: 35px;
 }
@@ -42,6 +43,7 @@
     width: 226px;
     padding-left: 40px;
     box-sizing: border-box;
+    overflow: hidden;
     img{
       border-radius: 50%;
       border: 10px solid #f5f4f3;
@@ -62,6 +64,7 @@
   list-style-type: none;
   font-size: 14px;
   line-height: 1;
+  color: #727070;
   &__item{
     margin-bottom: 11px;
     font-family: open_sansregular, sans-serif;
@@ -85,6 +88,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 6px;
+    font-family: open_sanssemibold, sans-serif;
     &:before{
       content: "";
       display: inline-block;
@@ -103,27 +107,28 @@
       position: relative;
       left: -5px;
     }
-    span{
+  }
+  &__span{
       font-size: 9px;
       line-height: 1.6866;
       display: inline-block;
       vertical-align: top;
-      font-family: open_sanssemibold, sans-serif;
+      font-family: open_sansbold, sans-serif;
       text-transform: uppercase;
-      padding-left: 4px;
+      padding-left: 3px;
       padding-right: 4px;
-      padding-top: 3px;
+      padding-top: 2px;
       padding-bottom: 3px;
       text-shadow: 0 1px 0 rgba(255, 255, 255, 0.45);
       color: #1e7465;
       background: url(../img/center.png) repeat-x;
     }
-  }
-  span{
+}
+
+.for-me{
     font-family: open_sanssemibold, sans-serif;
     margin-right: 5px;
   }
-}
 
 
 
@@ -135,7 +140,7 @@
 .exp{
   margin-bottom: 39px;
   &__title{
-    margin-bottom: 18px;
+    margin-bottom: 5px;
   }
   &__descr{
     padding: 0;
@@ -149,6 +154,11 @@
   position: relative;
   font-size: 14px;
   padding: 27px 0;
+  color: #727070;
+  border-top: 1px solid #edeceb;
+  border-bottom: 1px solid #dbdbda;
+  margin: 0 40px 0 40px;
+  padding-left: 95px;
   &:before{
     content: "";
     background: url(../img/sprite.png) -42px -5px no-repeat;
@@ -173,10 +183,6 @@
     top: 50%;
     margin-top: -22.5px;
   }
-  border-top: 1px solid #edeceb;
-  border-bottom: 1px solid #dbdbda;
-  margin: 0 40px 0 40px;
-  padding-left: 95px;
   &__des{
     display: inline-block;
     line-height: 1.5;
@@ -197,19 +203,21 @@
 
 
 
-/*++++++++++ Education ++++++++++*/
+/*++++++++++ Education Section ++++++++++*/
 
 
 
 .edu{
   &__title{
-    margin-bottom: 17px;
+    margin-bottom: 5px;
   }
 }
 .edu-work{
   padding: 0;
-  margin: 0 0 15px 0;
+  margin: 0;
+  margin-bottom: 15px;
   list-style-type: none;
+  color: #727070;
   &__edu1{
     &:before{
       content: "";
@@ -255,6 +263,10 @@
   position: relative;
   font-size: 14px;
   padding: 27px 0;
+  border-top: 1px solid #edeceb;
+  border-bottom: 1px solid #dbdbda;
+  margin: 0 40px 0 40px;
+  padding-left: 95px;
   &:after{
     content: "";
     width: 55px;
@@ -267,10 +279,6 @@
     top: 50%;
     margin-top: -22.5px;
   }
-  border-top: 1px solid #edeceb;
-  border-bottom: 1px solid #dbdbda;
-  margin: 0 40px 0 40px;
-  padding-left: 95px;
   &__des{
     display: block;
     line-height: 1.5;

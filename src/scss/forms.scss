@@ -1,3 +1,5 @@
+/*=========== Forms ===========*/
+
 .form-title{
   margin-bottom: 20px;
 }
@@ -46,6 +48,7 @@
   border: 1px solid #d6d5d3;
   background: #fafbfc;
   border-radius: 5px;
+  color: #888;
   outline:none;
   }
   &__textarea{
@@ -54,6 +57,7 @@
     height: 170px;
     resize: none;
     padding-bottom: 0;
+    margin-bottom: 30px;
   }
   &__captcha{
     width: 400px;

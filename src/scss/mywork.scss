@@ -1,5 +1,9 @@
+/*========== Mywork ==========*/
+
 .mywork{
   margin: 0 10px 50px 40px;
+  padding: 0;
+  list-style-type: none;
   font-size: 0;
   &__pic{
     position: relative;
@@ -78,12 +82,13 @@
 }
 .add-project{
     color: #727070;
+
+    width: 165px;
     font-size: 14px;
     line-height: 22px;
     text-align: center;
     padding-bottom: 25px;
     font-family: open_sanssemibold, sans-serif;
-    margin-bottom: 25px;
     text-decoration: none;
     display: inline-block;
     position: relative;

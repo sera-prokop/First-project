@@ -14,11 +14,14 @@
 .main-header{
   &__left{
     float: left;
-    width: 250px;
+    width: 95px;
   }
   &__right{
     float: right;
     max-width: 250px;
+  }
+  &__logo{
+    display: block;
   }
 }
 .menu-social{
