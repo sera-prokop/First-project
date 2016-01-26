@@ -1,3 +1,26 @@
 .wrapper{
   background-image: url(../img/bg2.png);
 }
+.job:after, .learn:after{
+  display: none;
+}
+.main-menu__item{
+  border-top: 1px solid #b8b8b8;
+}
+.main-menu:first-child{
+  border-top: none;
+}
+.learn{
+  border-bottom: none;
+}
+.mywork__title{
+  background: #999;
+  color: #ddd;
+}
+.mywork__pic:hover:after{
+  display: none;
+}
+.add-project:hover {
+  color: #777;
+  background: #ddd;
+}
