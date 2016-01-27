@@ -212,20 +212,24 @@ body {
 
 .main-header__logo {
   display: block;
+  overflow: hidden;
 }
 
 .menu-social {
-  font-size: 0; 
+  font-size: 0;
 
   margin: 0;
+  margin-right: 9px; 
   padding: 0;
 
   list-style-type: none;
 }
-.menu-social li {
-  font-size: 0; 
+.menu-social__li {
+  font-size: 0;
 
   display: inline-block;
+
+  margin-left: 13px; 
 
   vertical-align: middle;
 }
@@ -238,33 +242,24 @@ body {
   background: url(../img/sprite.png) -215px 0 no-repeat;
 }
 .menu-social__fb {
-  margin-left: 15px; 
-
   background-position: -73px -5px;
 }
 .menu-social__fb:hover {
   background-position: -121px -5px;
 }
 .menu-social__vk {
-  margin-left: 13px; 
-
   background-position: -184px -86px;
 }
 .menu-social__vk:hover {
   background-position: -184px -136px;
 }
 .menu-social__tw {
-  margin-left: 14px; 
-
   background-position: -136px -134px;
 }
 .menu-social__tw:hover {
   background-position: -188px -5px;
 }
 .menu-social__gh {
-  margin-right: 9px; 
-  margin-left: 12px;
-
   background-position: -30px -55px;
 }
 .menu-social__gh:hover {
@@ -350,7 +345,8 @@ body {
   list-style-type: none;
 
   border: 1px solid #d4d3d1;
-  border-radius: 8px 8px 5px 5px;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
   box-shadow: 0 2px 3px -1px #b8b8b8;
 }
 .contacts__title {
@@ -395,6 +391,8 @@ body {
   content: "";
 }
 .contacts__descr:hover {
+  text-decoration: underline;
+
   background-color: #f6edde;
   background-image: linear-gradient(to bottom, #fff 0%, #fbf9f3 50%, #f2e7d0 100%);
 }
@@ -431,9 +429,6 @@ body {
   content: "";
 
   background: url(../img/sprite.png) -36px -134px no-repeat;
-}
-.contacts__span:hover {
-  border-bottom: 1px solid #c4c0b9;
 }
 
 /*============ Main-inf section ============*/
@@ -474,10 +469,12 @@ body {
 }
 .info__foto {
   float: left;
-  overflow: hidden; 
+  overflow: hidden;
 
   box-sizing: border-box;
   width: 226px;
+  padding-top: 5px;
+  padding-bottom: 5px; 
   padding-left: 40px;
 }
 .info__foto img {
