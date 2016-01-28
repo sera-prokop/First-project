@@ -242,28 +242,28 @@ body {
   background: url(../img/sprite.png) -215px 0 no-repeat;
 }
 .menu-social__fb {
-  background-position: -73px -5px;
+  background-position: -16px -70px;
 }
 .menu-social__fb:hover {
-  background-position: -121px -5px;
+  background-position: -64px -70px;
 }
 .menu-social__vk {
-  background-position: -184px -86px;
+  background-position: -84px -216px;
 }
 .menu-social__vk:hover {
-  background-position: -184px -136px;
+  background-position: -132px -216px;
 }
 .menu-social__tw {
-  background-position: -136px -134px;
+  background-position: -214px -166px;
 }
 .menu-social__tw:hover {
-  background-position: -188px -5px;
+  background-position: -36px -216px;
 }
 .menu-social__gh {
-  background-position: -30px -55px;
+  background-position: -5px -135px;
 }
 .menu-social__gh:hover {
-  background-position: -78px -55px;
+  background-position: -53px -135px;
 }
 
 /*========== Main ==========*/
@@ -405,7 +405,7 @@ body {
 .contacts__mail:before {
   content: "";
 
-  background: url(../img/sprite.png) -126px -86px no-repeat;
+  background: url(../img/sprite.png) -101px -135px no-repeat;
 }
 .contacts__tel {
   border: 1px solid #d6d5d3;
@@ -416,7 +416,7 @@ body {
 .contacts__tel:before {
   content: "";
 
-  background: url(../img/sprite.png) -86px -134px no-repeat;
+  background: url(../img/sprite.png) -230px -118px no-repeat;
 }
 .contacts__skype {
   border: 1px solid #d6d5d3;
@@ -428,7 +428,7 @@ body {
 .contacts__skype:before {
   content: "";
 
-  background: url(../img/sprite.png) -36px -134px no-repeat;
+  background: url(../img/sprite.png) -230px -70px no-repeat;
 }
 
 /*============ Main-inf section ============*/
@@ -539,11 +539,11 @@ body {
   content: "";
   vertical-align: middle;
 
-  background: url(../img/before.png) no-repeat;
+  background: url(../img/sprite.png) -22px -5px no-repeat;
 }
 .description__li:after {
   position: relative;
-  left: -5px; 
+  left: -2px; 
 
   display: inline-block;
 
@@ -553,7 +553,7 @@ body {
   content: "";
   vertical-align: middle;
 
-  background: url(../img/after.png) no-repeat;
+  background: url(../img/sprite.png) -5px -5px no-repeat;
 }
 .description__span {
   font-family: open_sansbold, sans-serif;
@@ -563,7 +563,7 @@ body {
   display: inline-block;
 
   padding-top: 2px;
-  padding-right: 4px;
+  padding-right: 3px;
   padding-bottom: 3px;
   padding-left: 3px;
 
@@ -622,7 +622,7 @@ body {
 
   content: "";
 
-  background: url(../img/sprite.png) -42px -5px no-repeat;
+  background: url(../img/sprite.png) -145px -5px no-repeat;
 }
 .job:after {
   position: absolute;
@@ -681,7 +681,7 @@ body {
 
   content: "";
 
-  background: url(../img/sprite.png) -5px -134px no-repeat;
+  background: url(../img/sprite.png) -5px -200px no-repeat;
 }
 .edu-work__edu2:before {
   position: absolute;
@@ -695,7 +695,7 @@ body {
 
   content: "";
 
-  background: url(../img/sprite.png) -5px -5px no-repeat;
+  background: url(../img/sprite.png) -45px -5px no-repeat;
 }
 .edu-work__loftschool:before {
   position: absolute;
@@ -709,7 +709,7 @@ body {
 
   content: "";
 
-  background: url(../img/sprite.png) -5px -55px no-repeat;
+  background: url(../img/sprite.png) -112px -70px no-repeat;
 }
 
 .learn {
@@ -800,7 +800,7 @@ body {
 
   content: "";
 
-  background: url(../img/sprite.png) -126px -55px no-repeat;
+  background: url(../img/sprite.png) -200px -70px no-repeat;
 }
 .exit__link:hover:before {
   position: absolute;
@@ -815,7 +815,7 @@ body {
 
   content: "";
 
-  background: url(../img/sprite.png) -184px -55px no-repeat;
+  background: url(../img/sprite.png) -262px -166px no-repeat;
 }
 
 .copy {
@@ -978,7 +978,7 @@ body {
 
   content: "";
 
-  background: #f7f7f7 url(../img/sprite.png) -154px -55px no-repeat;
+  background: #f7f7f7 url(../img/sprite.png) -200px -101px no-repeat;
 }
 
 /*=========== Forms ===========*/
