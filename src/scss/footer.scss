@@ -12,6 +12,7 @@
   max-width: 640px;
   min-width: 640px;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
 .exit {
@@ -54,7 +55,7 @@
 
 .copy {
   display: inline-block;
-  padding: 25px 0 25px 60px;
+  padding-left:60px;
   font-size: 12px;
   font-family: open_sanslight, serif;
   letter-spacing: 0.1px;

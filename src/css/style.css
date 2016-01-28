@@ -767,6 +767,7 @@ body {
   min-width: 640px;
   max-width: 640px;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
 .exit {
@@ -824,7 +825,7 @@ body {
 
   display: inline-block;
 
-  padding: 25px 0 25px 60px;
+  padding-left: 60px;
 
   letter-spacing: .1px;
 }
