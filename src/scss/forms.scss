@@ -51,13 +51,15 @@
   color: #888;
   outline:none;
   }
+  &__descr{
+    margin-bottom: 30px;
+  }
   &__textarea{
     overflow: auto;
     width: 390px;
     height: 170px;
     resize: none;
     padding-bottom: 0;
-    margin-bottom: 30px;
   }
   &__captcha{
     width: 400px;
