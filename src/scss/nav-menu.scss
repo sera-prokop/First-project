@@ -1,7 +1,11 @@
 /*========== Main Navigation ==========*/
 
 /*++++++++++ Menu ++++++++++*/
-
+.nav{
+  &__menu{
+    margin-bottom: 35px;
+  }
+}
 .main-menu{
   padding: 0;
   margin: 0;
@@ -11,7 +15,7 @@
   box-sizing: border-box;
   border: 1px solid #b8b8b8;
   box-shadow:0 2px 3px -1px #b8b8b8;
-  margin-bottom: 35px;
+
   &__item{
     text-decoration: none;
     display: block;
