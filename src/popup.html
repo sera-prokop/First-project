@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popup</title>
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="popup-wrapper">
+    <div class="popup">
+      <div class="popup__close">X</div>
+      <form action="url" method="POST">
+        <label class="popup__general popup__label" for="name_project">Название проекта</label>
+        <input class="popup__general popup__input" type="text" name="name_project" id="name_project" placeholder="Введите название">
+        <div class="popup__file downpic">Картинка проекта
+          <label class="popup__general popup__label downpic__label clearfix" for="pic_project">
+            <span class="downpic__descr" id="fileformlabel">Загрузите изображение</span>
+            <span class="downpic__pic"></span>
+            <input class="downpic__input" type="file" name="pic_project" id="pic_project">
+          </label>
+        </div>
+        <label class="popup__general popup__label" for="url_project">URL проекта</label>
+        <input class="popup__general popup__input" type="text" name="url_project" id="url_project" placeholder="Добавьте ссылку">
+        <label class="popup__general popup__label" for="descr_project">Описание</label>
+        <textarea class="popup__general popup__input popup__textarea" name="descr_project" id="descr_project" placeholder="Пара слов о вашем проекте"></textarea>
+        <button class="popup__button popup__submit" type="submit">Добавить</button>
+      </form>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="bower/jquery/jquery.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -24,6 +24,9 @@
   color: #777;
   background: #ddd;
 }
+.add-project:hover:before{
+  background: #ddd;
+}
 .job:before{
   background: url(../img/sprite.png) -176px -5px no-repeat;
   width: 53px;
@@ -58,4 +61,13 @@
   background-position: -151px -135px;
   margin-left: -30px;
   top:20%;
+}
+.popup-wrapper{
+  background: #000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.downpic__descr{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

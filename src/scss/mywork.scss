@@ -104,10 +104,11 @@
       box-shadow: -1px -1px 1px #cfcfcf;
       border-radius: 50%;
       margin: 25px auto 10px auto;
+      background: #f7f7f7;
     }
     &:after{
       content: "";
-      background: #f7f7f7 url(../img/sprite.png) -200px -101px no-repeat;
+      background:url(../img/sprite.png) -200px -101px no-repeat;
       width: 20px;
       height: 20px;
       display: block;
