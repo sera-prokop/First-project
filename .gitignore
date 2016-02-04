@@ -1,7 +1,6 @@
-.git
+.idea
 node_modules
-PSD
-npm-debug.log
-.sass-cache
-src/bower
-src/js/vendor
+bower_components
+test
+example
+build

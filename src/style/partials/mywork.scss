@@ -1,0 +1,151 @@
+/*========== Mywork ==========*/
+
+.mywork {
+  font-size: 0;
+
+  margin: 0 10px 50px 40px;
+  padding: 0;
+
+  list-style-type: none;
+  &__pic {
+    position: relative;
+
+    display: block;
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      content: "";
+    }
+    &:hover:before {
+      background: rgba(111, 109, 109 , .7);
+    }
+    &:after {
+      content: "";
+      transition: opacity 2s;
+
+      opacity: 0;
+    }
+    &:hover:after {
+      font-family: open_sanssemibold, sans-serif;
+      font-size: 16px;
+      line-height: 1;
+
+      position: absolute;
+      top: 50%;
+
+      display: block;
+
+      width: 158px;
+      margin: 0 auto;
+      margin-top: -13px;
+      padding: 5px 0;
+
+      content: "Подробнее";
+      text-align: center;
+
+      opacity: 1;
+      color: rgb(255, 255, 255);
+      border: 3px solid rgb(255, 255, 255);
+      border-radius: 10px;
+    }
+  }
+  &__block {
+    display: inline-block;
+    overflow: hidden;
+
+    box-sizing: border-box;
+    width: 165px;
+    margin-top: 30px;
+    margin-right: 35px;
+
+    vertical-align: top;
+
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px rgba(9, 9, 9, .1);
+  }
+  &__title {
+    font-family: open_sanssemibold, sans-serif;
+    font-size: 13.35px;
+    line-height: 1.69;
+
+    margin: 0;
+    padding: 8px 0;
+
+    text-align: center;
+
+    color: #727070;
+    background: rgba(111, 109, 109, .1);
+  }
+  &__descr {
+    font-family: open_sanslight, sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+
+    margin-top: 5px;
+    padding: 0;
+
+    text-align: center;
+
+    color: #727070;
+  }
+}
+.work-title {
+  margin-bottom: 8px;
+}
+.add-project {
+  font-family: open_sanssemibold, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+
+  position: relative;
+
+  display: inline-block;
+
+  width: 165px;
+  padding-bottom: 25px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #727070;
+  &:hover {
+    color: #fff;
+    background: rgba(111, 109, 109 , .4);
+  }
+  &:before {
+    display: block;
+
+    width: 55px;
+    height: 55px;
+    margin: 25px auto 10px auto;
+
+    content: "";
+
+    border-radius: 50%;
+    background: #f7f7f7;
+    box-shadow: -1px -1px 1px #cfcfcf;
+  }
+  &:after {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+
+    content: "";
+
+    background: url(../img/sprite.png) -200px -101px no-repeat;
+  }
+}

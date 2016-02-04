@@ -1,0 +1,83 @@
+/*==================   HEADER   ===================*/
+.center {
+  line-height: 90px;
+
+  min-width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.header {
+  margin-bottom: 34px;
+  padding: 0 10px;
+
+  border-bottom: 7px solid #fff;
+  background: url(../img/hd-bg.jpg) repeat-x;
+}
+.main-header {
+  &__left {
+    float: left;
+
+    width: 95px;
+  }
+  &__right {
+    float: right;
+
+    max-width: 250px;
+  }
+  &__logo {
+    display: block;
+    overflow: hidden;
+  }
+}
+.menu-social {
+  font-size: 0;
+
+  margin: 0;
+  margin-right: 9px;
+  padding: 0;
+
+  list-style-type: none;
+  &__li {
+    font-size: 0;
+
+    display: inline-block;
+
+    margin-left: 13px;
+
+    vertical-align: middle;
+  }
+  &__btn {
+    display: block;
+
+    width: 38px;
+    height: 40px;
+
+    background: url(../img/sprite.png) -215px 0 no-repeat;
+  }
+  &__fb {
+    background-position: -16px -70px;
+    &:hover {
+      background-position: -64px -70px;
+    }
+  }
+  &__vk {
+    background-position: -84px -216px;
+    &:hover {
+      background-position: -132px -216px;
+    }
+  }
+  &__tw {
+    background-position: -214px -166px;
+    &:hover {
+      background-position: -36px -216px;
+    }
+  }
+  &__gh {
+    background-position: -5px -135px;
+    &:hover {
+      background-position: -53px -135px;
+    }
+  }
+}
