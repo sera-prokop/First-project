@@ -65,12 +65,6 @@ $(function(){
   // });
 }());
 
-// ============== Placeholder IE8 ================
-
-$(function() {
-        $('input, textarea').placeholder();
-      });
-
 // ==================== Avoid `console` errors in browsers that lack a console.=====================
 
 (function() {
@@ -96,7 +90,7 @@ $(function() {
 }());
 
 
-// ================= Placeholder for IE 8 ==================
+// ============== Placeholder IE8 ================
 
 $(function() {
   $('input, textarea').placeholder();

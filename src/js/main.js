@@ -8,3 +8,4 @@
     Custom
  */
 //= partials/helper.js
+//= partials/validation.js

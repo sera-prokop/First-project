@@ -1,3 +1,4 @@
+// ================= Placeholder for IE 8 ==================
 $(function() {
-        $('input, textarea').placeholder();
-      });
+  $('input, textarea').placeholder();
+});
