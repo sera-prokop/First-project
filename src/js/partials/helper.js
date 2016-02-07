@@ -17,7 +17,7 @@ $(function(){
     if( file_api && inp[ 0 ].files[ 0 ] )
         file_name = inp[ 0 ].files[ 0 ].name;
     else
-        file_name = inp.val().replace( "C:\\fakepath\\", '' );
+        file_name = inp.val().replace(/.+[\\\/]/, "");
 
     if( ! file_name.length )
         return;
@@ -29,9 +29,9 @@ $(function(){
   }).change();
 
 });
-$( window ).resize(function(){
-  $( ".file_upload input" ).triggerHandler( "change" );
-});
+// $( window ).resize(function(){
+//   $( ".file_upload input" ).triggerHandler( "change" );
+// });
 
 // =========== POPUP ============
 
@@ -52,17 +52,27 @@ $( window ).resize(function(){
     popupWr.hide();
   });
 
-  $(document).mouseup(function(e){
-    if(! popup.is(e.target)&& popup.has(e.target).length === 0){
-      popupWr.hide();
+  $(document).keyup(function(e){
+    if (event.keyCode == 27) {
+        popupWr.hide();
     }
   });
+
+  // $(document).mouseup(function(e){
+  //   if(! popup.is(e.target)&& popup.has(e.target).length === 0){
+  //     popupWr.hide();
+  //   }
+  // });
 }());
+
+// ============== Placeholder IE8 ================
+
 $(function() {
         $('input, textarea').placeholder();
       });
 
 // ==================== Avoid `console` errors in browsers that lack a console.=====================
+
 (function() {
   var method;
   var noop = function () {};

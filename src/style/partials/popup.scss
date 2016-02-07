@@ -235,23 +235,3 @@
 .popup-hide {
   display: none;
 }
-
-.tooltip{
-  position: absolute;
-  left: -117px;
-  top: 57px;
-  font-size: 12px;
-  background: #f2a085;
-  padding: 4px 6px;
-  font-family: "open_sanssemibold", serif;
-  color: #7e2100;
-  border-radius: 5px 3px 3px 5px;
-  &:after{
-    content: "";
-    border: 8px solid transparent;
-    border-left: 8px solid #f2a085;
-    position: absolute;
-    right: -15px;
-    bottom: 5px;
-  }
-}

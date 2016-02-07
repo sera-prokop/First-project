@@ -1,0 +1,58 @@
+.form-ind{
+  position: relative;
+}
+.tooltip{
+  &:before{
+    display: block;
+    position: absolute;
+    font-size: 12px;
+    background: #f2a085;
+    padding: 4px 6px;
+    font-family: "open_sanssemibold", serif;
+    color: #7e2100;
+    border-radius: 5px 3px 3px 5px;
+  }
+  &:after{
+    content: "";
+    border: 8px solid transparent;
+    border-left: 8px solid #f2a085;
+    position: absolute;
+    left: -15px;
+    bottom: -27px;
+  }
+  &__name{
+    &:before{
+      content:'введите название';
+      left: -137px;
+      top: 44px;
+    }
+  }
+  &__pic{
+    &:before{
+      content:'введите название';
+      left: -137px;
+      top: 7px;
+    }
+  }
+  &__url{
+    &:before{
+      content:'введите название';
+      left: -137px;
+      top: 73px;
+    }
+  }
+  &__textarea{
+    &:before{
+      content:'введите название';
+      left: -137px;
+      top: 77px;
+    }
+    &:after{
+      bottom: -60px;
+    }
+  }
+}
+.popup__input{
+
+  border: 1px solid #f2a085;
+}
