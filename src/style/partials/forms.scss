@@ -13,11 +13,13 @@
     float: left;
 
     width: 190px;
+    position: relative;
   }
   &__email {
     float: right;
 
     width: 190px;
+    position: relative;
   }
   &__label {
     font-size: 14px;
@@ -61,6 +63,7 @@
   }
   &__descr {
     margin-bottom: 30px;
+    position: relative;
   }
   &__textarea {
     overflow: auto;

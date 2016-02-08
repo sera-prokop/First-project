@@ -14,9 +14,11 @@ $(function(){
 
   inp.change(function(){
     var file_name;
-    if( file_api && inp[ 0 ].files[ 0 ] )
+    if( file_api && inp[ 0 ].files[ 0 ] ){
         file_name = inp[ 0 ].files[ 0 ].name;
-    else
+        $('.tooltip-pic').removeClass('tooltip').addClass('hidden');
+        $('#fileformlabel').removeClass('tooltip__stroke');
+    }else
         file_name = inp.val().replace(/.+[\\\/]/, "");
 
     if( ! file_name.length )

@@ -2,58 +2,60 @@
   position: relative;
 }
 .tooltip{
-  &:before{
-    display: block;
-    position: absolute;
-    font-size: 12px;
-    background: #f2a085;
-    padding: 4px 6px;
-    font-family: "open_sanssemibold", serif;
-    color: #7e2100;
-    border-radius: 5px 3px 3px 5px;
-  }
+  display: block;
+  position: absolute;
+  font-size: 12px;
+  background: #f2a085;
+  padding: 4px 6px;
+  font-family: "open_sanssemibold", serif;
+  color: #7e2100;
+  border-radius: 5px 3px 3px 5px;
+  right: 333px;
+  white-space: nowrap;
   &:after{
     content: "";
     border: 8px solid transparent;
     border-left: 8px solid #f2a085;
     position: absolute;
-    left: -15px;
-    bottom: -27px;
+    right: -15px;
   }
-  &__name{
-    &:before{
-      content:'введите название';
-      left: -137px;
-      top: 44px;
-    }
-  }
-  &__pic{
-    &:before{
-      content:'введите название';
-      left: -137px;
-      top: 7px;
-    }
-  }
-  &__url{
-    &:before{
-      content:'введите название';
-      left: -137px;
-      top: 73px;
-    }
-  }
-  &__textarea{
-    &:before{
-      content:'введите название';
-      left: -137px;
-      top: 77px;
-    }
-    &:after{
-      bottom: -60px;
-    }
+  &__stroke{
+    border: 1px solid #f2a085;
   }
 }
-.popup__input{
-
-  border: 1px solid #f2a085;
+.tooltip-name{
+  top: 44px;
 }
 
+.tooltip-pic{
+  top: 44px;
+}
+.tooltip-url{
+  top: 44px;
+}
+.tooltip-textarea{
+  top: 77px;
+}
+
+.tooltip-form-name{
+  right: 207px;
+  top: 49px;
+}
+.tooltip-form-question{
+  right: 414px;
+  top: 117px;
+}
+.tooltip-form-email{
+  &:before{
+    content: "";
+    border: 8px solid transparent;
+    border-right: 8px solid #f2a085;
+    position: absolute;
+    left: -14px;
+  }
+  &:after{
+    border: none;
+  }
+  right: -123px;
+  top: 45px;
+}
