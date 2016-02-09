@@ -1,9 +1,6 @@
-//Так приятней :)
-window.log = function(param){
-    console.log(param);
-};
 
 // ============== INPUT FILE ===============
+
 $(function(){
   var wrapper = $( ".downpic__label" ),
     inp = wrapper.find( "input" ),
@@ -31,9 +28,6 @@ $(function(){
   }).change();
 
 });
-// $( window ).resize(function(){
-//   $( ".file_upload input" ).triggerHandler( "change" );
-// });
 
 // =========== POPUP ============
 
@@ -42,8 +36,6 @@ $(function(){
       popupWr = $('.popup-wrapper'),
       popup = $('.popup'),
       close = $('.popup__close');
-
-
 
   cl.on('click', function(e) {
     e.preventDefault();
@@ -59,12 +51,6 @@ $(function(){
         popupWr.hide();
     }
   });
-
-  // $(document).mouseup(function(e){
-  //   if(! popup.is(e.target)&& popup.has(e.target).length === 0){
-  //     popupWr.hide();
-  //   }
-  // });
 }());
 
 // ==================== Avoid `console` errors in browsers that lack a console.=====================
