@@ -1,4 +1,10 @@
 
+// ============== Placeholder IE8 ================
+
+$(function() {
+  $('input, textarea').placeholder();
+});
+
 // ============== INPUT FILE ===============
 
 $(function(){
@@ -17,6 +23,8 @@ $(function(){
         $('#fileformlabel').removeClass('tooltip__stroke');
     }else
         file_name = inp.val().replace(/.+[\\\/]/, "");
+        $('.tooltip-pic').removeClass('tooltip').addClass('hidden');
+        $('#fileformlabel').removeClass('tooltip__stroke');
 
     if( ! file_name.length )
         return;
